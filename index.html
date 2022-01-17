@@ -1,0 +1,82 @@
+<!-- In dit bestand staat de HTML-code voor je Quiz. Je kunt deze code aanpassen. -->
+
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Quiz Guru</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="css/quiz.css">
+</head>
+
+<body>
+
+    <nav>
+
+        <button id="button-questions">Start</button>
+        <button id="button-start">Home</button>
+    </nav>
+    <main>
+        <div class="page" id="page-start">
+            <h2> Welkom bij Quiz Guru</h2>
+
+            <h3> Speel de quiz en test je kennis over HTML, CSS en JavaScript!</h3>
+
+            <p> Hallo allemaal. Dit is een quiz over:
+                <ul>
+                    <li> HTML</li>
+                    <li> CSS </li>
+                    <li> Javascript</li>
+                </ul>
+                <hr>
+                <p> Er zijn 20 meerkeuzevragen die hierover gaan. <u>Voor een voldoende moet je 11 vragen goed
+                        beantwoorden.</u> De quiz duurt ongeveer 15 minuten. De vragen die je in de quiz gaat
+                    tegenkomen,
+                    lijken op de
+                    vragen die je in het tentamen kan verwachten. </p>
+                <p> Let op! Als je eenmaal de vraag beantwoord hebt dan is het niet meer mogelijk om het te veranderen,
+                    dus antwoord voorzichtig!
+                </p>
+
+                <h3> Veel succes! <img src="http://cdn.shopify.com/s/files/1/1061/1924/products/Thumbs_Up_Sign_Emoji_Icon_ios10_grande.png?v=1513336433"
+                        alt="" width="25" height="25"></h3>
+
+                <style>
+                    body {
+                        background-color: rgba(15, 7, 7, 0.137);
+                    }
+                </style>
+
+        </div>
+
+        <div class="page" id="page-check">
+            <input type="text" name="studentnummer" id="studentnummer" value="S">
+            <button id="checkbutton">Controleer studentnummer</button>
+
+        </div>
+        <div class="page" id="page-questions">
+            <h4><span id="Student">Student:</span></h4>
+            <div id="score">Score: 0</div>
+            <hr>
+            <h1 id="quizVraag"></h1>
+            <hr>
+            <div><button id="button_a" class="button"> A </button> </div>
+            <div><button id="button_b" class="button"> B </button> </div>
+            <div><button id="button_c" class="button"> C </button> </div>
+            <div><button id="button_d" class="button"> D </button> </div>
+        </div>
+        <div class="page" id="page-last">
+
+            <h2 id="textlastpage"></h2>
+
+        </div>
+    </main>
+    <script src="js/quiz.js">
+
+    </script>
+</body>
+
+</html>

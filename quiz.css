@@ -1,0 +1,66 @@
+/* Plaats je CSS-code in dit bestand */
+
+nav {
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+
+.page {
+    border-width: 4px;
+    border-color: rgb(247, 247, 247); 
+    border-style: solid;
+    border-radius: 15px; 
+    background-color: rgba(255, 255, 255, 0.781);  
+    padding-left: 10px;
+}
+
+#Answer-seleted {
+    color: #fff;
+    text-shadow: 2px 2px 3px rgba(243, 16, 16, 0.8);
+    background-color: #2c51ae;
+    background: linear-gradient(352deg, #05105f, #2c51ae, #2c51ae);
+}
+
+/* For mobile phones: */
+@media only screen and (max-width:500px) {
+    
+    .menu, .main, .right {
+      width: 100%;
+    }
+}
+  
+#button-start {
+    display:inline-block;
+    font-weight: bold;
+    width: 120px;
+    height: 50px; 
+    border-radius: 15px;
+    margin-left: 10px;
+    margin-left: 10px;
+    background-color: black; color: rgb(255, 255, 255);/* Black */ 
+}
+
+#button-questions {
+    font-weight: bold;
+    min-width: 120px;
+    height: 50px;
+    border-radius: 15px;
+    background-color: black; color: rgb(255, 255, 255);/* Black */    
+}
+
+.button {
+    font-weight: bold;
+    min-width: 40px;
+    height:40px; 
+    border-radius: 10px;
+    margin-left: 10px;
+    margin-left: 10px;
+    background-color: black; color: rgb(255, 255, 255);/* Black */ 
+}
+
+body {
+    background-image: url("https://wallpapercave.com/wp/wp3345077.jpg");
+    background-size: cover; 
+    color: rgb(0, 0, 0);
+    font-size: 15px;
+}
